@@ -45,3 +45,7 @@ Running the script:
 
 The visualisation graphic will automatically display, close the window(s) to complete the script.
 Results can also be found in the port-geolocator/output directory.
+
+Visualisation reference files:
+- Geopandas built-in world map
+- DataGov.sg National Map Polygon: https://data.gov.sg/dataset/national-map-polygon?resource_id=d1f2a8b0-a618-4b8e-be48-d90c3e34d746
