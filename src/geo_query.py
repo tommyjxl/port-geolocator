@@ -90,21 +90,22 @@ class GeoQuery():
 		print('Query: ' + sql)
 		results = query_job.result()
 		print_rows(results)
+		return results
 
 	def read_result_1(self):
 		"""
 		Read result for Question 1
 		"""
-		self._read_result("""SELECT port_name, distance_in_meters FROM {}.{}.{}""".format(PROJECT_ID, DATASET_NAME, A1_TABLE_ID))
+		return self._read_result("""SELECT port_name, distance_in_meters FROM {}.{}.{}""".format(PROJECT_ID, DATASET_NAME, A1_TABLE_ID))
 	
 	def read_result_2(self):
 		"""
 		Read result for Question 2
 		"""
-		self._read_result("""SELECT country, port_count FROM {}.{}.{}""".format(PROJECT_ID, DATASET_NAME, A2_TABLE_ID))
+		return self._read_result("""SELECT country, port_count FROM {}.{}.{}""".format(PROJECT_ID, DATASET_NAME, A2_TABLE_ID))
 
 	def read_result_3(self):
 		"""
 		Read result for Question 3
 		"""
-		self._read_result("""SELECT country, port_name, port_latitude, port_longitude FROM {}.{}.{}""".format(PROJECT_ID, DATASET_NAME, A3_TABLE_ID))
+		return self._read_result("""SELECT country, port_name, port_latitude, port_longitude FROM {}.{}.{}""".format(PROJECT_ID, DATASET_NAME, A3_TABLE_ID))

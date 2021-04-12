@@ -30,3 +30,18 @@ The output is found in the resulting dataset and table_ids specified in main.py 
 
 ## Unit Tests
 `pytest test_geo_query.py`
+
+## Visualisation (Optional)
+Ensure that geopandas is installed: https://geopandas.org/getting_started/install.html
+The preferred way is to install from source.
+Version used: 0.9.0+12.gafa49e0
+
+Ensure these dependencies are installed:
+`pip install matplotlib==3.3.2`
+`pip install shapely`
+
+Running the script:
+`python visualisation.py`
+
+The visualisation graphic will automatically display, close the window(s) to complete the script.
+Results can also be found in the port-geolocator/output directory.
