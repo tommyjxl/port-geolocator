@@ -1,6 +1,6 @@
 # port-geolocator
 Write and/or read queries on global seaport and airport data
-![image info](graph.png)
+![image info](image.png)
 
 ## Local machine set-up (Mac OS)
 Install Python 3.8.6 or higher: https://www.python.org/downloads/mac-osx/
